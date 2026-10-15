@@ -1,7 +1,7 @@
 /* ===== PERSONALIZAÇÃO: NOME E CONTATOS ===== */
 const CONFIG = {
   nomeClinica: 'Clínica Odontológica',
-  numeroWhatsApp: '5581999999999', // Substituir pelo número oficial, com DDI e DDD, somente dígitos
+  numeroWhatsApp: '5581', // Substituir pelo número oficial, com DDI e DDD, somente dígitos
   endereco: 'Rua Silvino Macedo, 192',
   horario: 'De Seg. à Sab. das 09 às 18:00',
   instagram: 'https://www.instagram.com/', // Substituir pelo perfil verdadeiro
