@@ -1,0 +1,34 @@
+ATELIÊ SORRISO — SITE ODONTOLÓGICO DEMONSTRATIVO
+
+COMO USAR
+Abra index.html no navegador. Não exige instalação, servidor, framework ou backend.
+
+CONTATOS
+No começo de script.js, edite CONFIG: nomeClinica, numeroWhatsApp (DDI+DDD+numero), endereco, horario, instagram, telefoneExibicao, responsavelTecnico e cro.
+O número de WhatsApp é um EXEMPLO e precisa ser alterado antes da publicação.
+Os botões abrem o WhatsApp; a reserva só é confirmada pela equipe humana.
+
+FOTOGRAFIAS
+As fotos não estão embutidas: o ambiente de criação não conseguiu baixar fotos da internet.
+Por isso são usados links Pexels demonstrativos no HTML e no objeto FOTOGRAFIAS de script.js.
+Esses links precisam de internet e não tiveram o carregamento final verificado.
+Recomendamos substituir pelas fotografias reais da clínica e autorizações de uso necessárias.
+Salve as fotos em images/ com os nomes abaixo e substitua as URLs no objeto FOTOGRAFIAS:
+ hero: 'images/hero.jpg'
+ atendimento: 'images/atendimento.jpg'
+ equipe: 'images/equipe.jpg'
+ tratamentos: 'images/tratamentos.jpg'
+ consultorio: 'images/consultorio.jpg'
+As imagens terão alt text e crop automáticos pelo CSS.
+
+Depoimentos são explicitamente demonstrativos; troque por avaliações autorizadas e verídicas.
+Não publique informações profissionais, endereço, horário ou telefone sem verificar.
+
+CORES E FONTES
+Modifique :root no início do arquivo style.css.
+
+TESTES RECOMENDADOS ANTES DE PUBLICAR
+- Verifique se todas as imagens carregam.
+- Atualize número WhatsApp e teste em celular.
+- Substitua conteúdo fictício e informações profissionais.
+- Revise datas, telefone e horários de funcionamento.

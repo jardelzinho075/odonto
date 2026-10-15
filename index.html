@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f4ef" />
+    <meta
+      name="description"
+      content="Atendimento odontológico atento aos detalhes. Conheça nossos tratamentos e solicite uma consulta pelo WhatsApp."
+    />
+    <title>Clínica Odontologica | Odontologia com atenção aos detalhes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <div class="site-wrap" id="inicio">
+      <main id="conteudo">
+        <section class="hero" aria-labelledby="hero-title">
+          <!-- IMAGEM PRINCIPAL: altere a URL em data-photo="hero" usando script.js, seção FOTOGRAFIAS. -->
+          <img
+            class="hero-photo"
+            data-photo="hero"
+            src="https://images.pexels.com/photos/6812570/pexels-photo-6812570.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1800"
+            alt="Profissional de odontologia realizando avaliação de um paciente"
+            fetchpriority="high"
+          />
+          <div class="hero-shade"></div>
+          <header class="header" id="cabecalho">
+            <a
+              class="brand"
+              href="#inicio"
+              aria-label="Clínica Odontologica, página inicial"
+              ><span class="brand-mark" aria-hidden="true">✳</span
+              ><span data-clinic-name>Clínica Odontologica</span></a
+            >
+            <nav class="desktop-nav" aria-label="Navegação principal">
+              <a href="#inicio" class="active">Início</a
+              ><a href="#tratamentos">Tratamentos</a
+              ><a href="#diferenciais">Diferenciais</a
+              ><a href="#depoimentos">Depoimentos</a>
+            </nav>
+            <a class="header-cta js-whatsapp" href="#agendamento"
+              >Agendar consulta <span aria-hidden="true">↗</span></a
+            >
+            <button
+              class="menu-button"
+              id="menu-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+              aria-label="Abrir menu"
+            >
+              <span></span><span></span>
+            </button>
+          </header>
+          <nav
+            class="mobile-menu"
+            id="mobile-menu"
+            aria-label="Navegação para celular"
+            inert
+          >
+            <a href="#inicio">Início</a><a href="#tratamentos">Tratamentos</a
+            ><a href="#diferenciais">Diferenciais</a
+            ><a href="#depoimentos">Depoimentos</a
+            ><a href="#agendamento">Agendar consulta ↗</a>
+          </nav>
+          <div class="hero-copy">
+            <span class="eyebrow hero-eyebrow"
+              ><i></i> UM NOVO OLHAR PARA A ODONTOLOGIA</span
+            >
+            <h1 id="hero-title">
+              Sorrisos que<br />contam <em>histórias.</em>
+            </h1>
+            <p>
+              Odontologia contemporânea, atenção aos detalhes e uma experiência
+              pensada para você.
+            </p>
+            <div class="hero-actions">
+              <a href="#agendamento" class="btn btn-light js-whatsapp"
+                >Agendar minha consulta
+                <span class="btn-icon" aria-hidden="true">↗</span></a
+              ><a href="#tratamentos" class="text-link light-link"
+                >Conhecer tratamentos <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+          <div class="hero-foot">
+            <div class="hero-note">
+              <span class="note-line"></span
+              ><span
+                >Cuidado em cada detalhe.<br />Confiança em cada encontro.</span
+              >
+            </div>
+            <div class="hero-tags">
+              <span>Clínica geral</span><span>Estética dental</span
+              ><span>Ortodontia</span><span>Implantes</span>
+            </div>
+            <a class="scroll-hint" href="#filosofia"
+              >Explore <span aria-hidden="true">↓</span></a
+            >
+          </div>
+        </section>
+        <div class="process-strip" aria-label="Etapas de atendimento">
+          <span>Primeiro contato</span><span>Escuta e avaliação</span
+          ><span>Plano individualizado</span><span>Cuidado contínuo</span>
+        </div>
+        <section
+          class="intro section-pad"
+          id="filosofia"
+          aria-labelledby="intro-title"
+        >
+          <div class="intro-left reveal">
+            <span class="section-pill">Nossa essência</span>
+            <div class="portrait-pair">
+              <img
+                data-photo="atendimento"
+                src="https://images.pexels.com/photos/6627534/pexels-photo-6627534.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=500"
+                alt="Atendimento em ambiente odontológico"
+                loading="lazy"
+              /><img
+                data-photo="equipe"
+                src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=500"
+                alt="Equipe de saúde em ambiente clínico"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="intro-right reveal">
+            <span class="kicker">UM JEITO MAIS HUMANO DE CUIDAR</span>
+            <h2 id="intro-title">
+              A gente acredita que cuidar do sorriso é, antes de tudo,
+              <span>cuidar de pessoas.</span>
+            </h2>
+            <p>
+              Escuta, clareza e atenção sincera, do primeiro contato ao
+              acompanhamento depois de cada procedimento.
+            </p>
+          </div>
+        </section>
+        <section
+          class="treatments section-pad"
+          id="tratamentos"
+          aria-labelledby="treatments-title"
+        >
+          <div class="section-heading reveal">
+            <div>
+              <span class="eyebrow dark-eyebrow">O QUE FAZEMOS</span>
+              <h2 id="treatments-title">
+                Cada necessidade.<br /><em>Um cuidado único.</em>
+              </h2>
+            </div>
+            <p>
+              Conheça possibilidades de tratamento e converse com a equipe para
+              descobrir o melhor caminho para você.
+            </p>
+          </div>
+          <div class="treatments-layout">
+            <div class="treatment-photo reveal">
+              <img
+                data-photo="tratamentos"
+                src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1000"
+                alt="Ambiente profissional de atendimento odontológico"
+                loading="lazy"
+              />
+              <div class="photo-caption">Precisão técnica. Atenção humana.</div>
+            </div>
+            <div class="treatment-list reveal">
+              <a
+                class="treatment-item"
+                data-service="Clínica geral"
+                href="#agendamento"
+                ><span class="treatment-num">01</span
+                ><span class="treatment-main"
+                  ><strong>Clínica geral</strong
+                  ><small
+                    >Saúde bucal, avaliação e acompanhamento de rotina.</small
+                  ></span
+                ><span class="circle-arrow" aria-hidden="true">↗</span></a
+              >
+              <a
+                class="treatment-item"
+                data-service="Clareamento dental"
+                href="#agendamento"
+                ><span class="treatment-num">02</span
+                ><span class="treatment-main"
+                  ><strong>Clareamento dental</strong
+                  ><small
+                    >Opções para valorizar a beleza natural do sorriso.</small
+                  ></span
+                ><span class="circle-arrow" aria-hidden="true">↗</span></a
+              >
+              <a
+                class="treatment-item"
+                data-service="Lentes de contato dental"
+                href="#agendamento"
+                ><span class="treatment-num">03</span
+                ><span class="treatment-main"
+                  ><strong>Lentes de contato dental</strong
+                  ><small
+                    >Planejamento estético cuidadoso e individualizado.</small
+                  ></span
+                ><span class="circle-arrow" aria-hidden="true">↗</span></a
+              >
+              <a
+                class="treatment-item"
+                data-service="Ortodontia"
+                href="#agendamento"
+                ><span class="treatment-num">04</span
+                ><span class="treatment-main"
+                  ><strong>Ortodontia</strong
+                  ><small
+                    >Tratamentos para alinhamento e função dentária.</small
+                  ></span
+                ><span class="circle-arrow" aria-hidden="true">↗</span></a
+              >
+              <a
+                class="treatment-item"
+                data-service="Implantes dentários"
+                href="#agendamento"
+                ><span class="treatment-num">05</span
+                ><span class="treatment-main"
+                  ><strong>Implantes dentários</strong
+                  ><small
+                    >Reabilitação oral com avaliação especializada.</small
+                  ></span
+                ><span class="circle-arrow" aria-hidden="true">↗</span></a
+              >
+              <a
+                class="treatment-item"
+                data-service="Limpeza e prevenção"
+                href="#agendamento"
+                ><span class="treatment-num">06</span
+                ><span class="treatment-main"
+                  ><strong>Limpeza e prevenção</strong
+                  ><small
+                    >Cuidados essenciais para a saúde a longo prazo.</small
+                  ></span
+                ><span class="circle-arrow" aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+        </section>
+        <section
+          class="difference section-pad"
+          id="diferenciais"
+          aria-labelledby="diff-title"
+        >
+          <div class="difference-copy reveal">
+            <span class="eyebrow dark-eyebrow">A EXPERIÊNCIA</span>
+            <h2 id="diff-title">
+              Mais do que um atendimento. <em>Um cuidado completo.</em>
+            </h2>
+            <p>
+              Um espaço pensado para fazer você se sentir à vontade, com
+              conversas transparentes e decisões tomadas em conjunto.
+            </p>
+            <div class="features">
+              <div>
+                <span class="feature-symbol">↗</span>
+                <div>
+                  <strong>Escuta de verdade</strong>
+                  <p>Tempo para entender sua história e suas necessidades.</p>
+                </div>
+              </div>
+              <div>
+                <span class="feature-symbol">↗</span>
+                <div>
+                  <strong>Planejamento individualizado</strong>
+                  <p>Orientações e possibilidades explicadas com clareza.</p>
+                </div>
+              </div>
+              <div>
+                <span class="feature-symbol">↗</span>
+                <div>
+                  <strong>Tecnologia com propósito</strong>
+                  <p>Recursos escolhidos para apoiar um cuidado preciso.</p>
+                </div>
+              </div>
+              <div>
+                <span class="feature-symbol">↗</span>
+                <div>
+                  <strong>Ambiente acolhedor</strong>
+                  <p>Conforto e atenção aos detalhes em cada visita.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="difference-image reveal">
+            <img
+              data-photo="consultorio"
+              src="https://images.pexels.com/photos/6627534/pexels-photo-6627534.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1100"
+              loading="lazy"
+              alt="Consultório odontológico contemporâneo"
+            /><span>Um espaço para cuidar de você.</span>
+          </div>
+        </section>
+        <section
+          class="testimonials section-pad"
+          id="depoimentos"
+          aria-labelledby="testimonials-title"
+        >
+          <div class="section-heading reveal">
+            <div>
+              <span class="eyebrow dark-eyebrow"
+                >A EXPERIÊNCIA DE QUEM PASSA POR AQUI</span
+              >
+              <h2 id="testimonials-title">
+                O cuidado é percebido <em>nos detalhes.</em>
+              </h2>
+            </div>
+            <span class="demo-label"
+              >Depoimentos ilustrativos — substituir antes de publicar</span
+            >
+          </div>
+          <div class="quote-grid">
+            <figure class="quote reveal">
+              <blockquote>
+                “Fui recebida com calma, pude tirar minhas dúvidas e me senti
+                ouvida durante todo o atendimento.”
+              </blockquote>
+              <figcaption>
+                Relato demonstrativo A <span>Exemplo fictício</span>
+              </figcaption>
+            </figure>
+            <figure class="quote reveal">
+              <blockquote>
+                “Gostei especialmente da explicação de cada etapa. Tudo foi
+                conversado sem pressa.”
+              </blockquote>
+              <figcaption>
+                Relato demonstrativo B <span>Exemplo fictício</span>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section
+          class="booking section-pad"
+          id="agendamento"
+          aria-labelledby="booking-title"
+        >
+          <div class="booking-heading reveal">
+            <span class="eyebrow">VAMOS CONVERSAR?</span>
+            <h2 id="booking-title">
+              Seu próximo sorriso começa <em>com uma conversa.</em>
+            </h2>
+            <p>
+              Conte pra gente o que você precisa. A equipe retornará pelo
+              WhatsApp para verificar a disponibilidade.
+            </p>
+            <div class="booking-aside">
+              <span class="booking-aside-line"></span> Solicitação sem
+              compromisso. Agendamento sujeito à confirmação.
+            </div>
+          </div>
+          <form class="booking-form reveal" id="booking-form" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="full-name">Nome completo <span>*</span></label
+                ><input
+                  id="full-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="Como podemos chamar você?"
+                  required
+                  minlength="3"
+                  maxlength="100"
+                /><small class="error" id="error-name"></small>
+              </div>
+              <div class="field">
+                <label for="treatment">Tratamento desejado <span>*</span></label
+                ><select id="treatment" name="treatment" required>
+                  <option value="">Selecione uma opção</option>
+                  <option>Primeira avaliação</option>
+                  <option>Clínica geral</option>
+                  <option>Clareamento dental</option>
+                  <option>Lentes de contato dental</option>
+                  <option>Ortodontia</option>
+                  <option>Implantes dentários</option>
+                  <option>Limpeza e prevenção</option>
+                  <option>Outro / Quero orientação</option></select
+                ><small class="error" id="error-treatment"></small>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="booking-date"
+                  >Data preferencial <span>*</span></label
+                ><input
+                  id="booking-date"
+                  name="date"
+                  type="date"
+                  required
+                /><small class="error" id="error-date"></small>
+              </div>
+              <div class="field">
+                <label for="booking-time">Horário ou turno <span>*</span></label
+                ><select id="booking-time" name="time" required>
+                  <option value="">Selecione uma opção</option>
+                  <option>Manhã</option>
+                  <option>Tarde</option>
+                  <option>Primeiro horário disponível</option>
+                  <option>08h</option>
+                  <option>09h</option>
+                  <option>10h</option>
+                  <option>11h</option>
+                  <option>13h</option>
+                  <option>14h</option>
+                  <option>15h</option>
+                  <option>16h</option>
+                  <option>17h</option></select
+                ><small class="error" id="error-time"></small>
+              </div>
+            </div>
+            <div class="field">
+              <label for="booking-notes"
+                >Observações <span class="optional">(opcional)</span></label
+              ><textarea
+                name="notes"
+                id="booking-notes"
+                rows="3"
+                maxlength="600"
+                placeholder="É sua primeira consulta? Há algo que gostaria de contar?"
+              ></textarea>
+            </div>
+            <button class="btn submit-btn" type="submit">
+              Solicitar pelo WhatsApp
+              <span class="btn-icon" aria-hidden="true">↗</span>
+            </button>
+            <p class="form-footnote" role="status" id="form-status">
+              Ao continuar, você abrirá uma conversa no WhatsApp. A data ainda
+              precisará ser confirmada pela clínica.
+            </p>
+          </form>
+        </section>
+        <footer class="footer">
+          <div class="footer-top">
+            <div>
+              <a href="#inicio" class="footer-brand"
+                ><span aria-hidden="true">✳</span>
+                <span data-clinic-name>Clínica Odontologica</span></a
+              >
+              <p>
+                Odontologia feita com técnica, sensibilidade e tempo para
+                cuidar.
+              </p>
+            </div>
+            <div class="footer-col">
+              <strong>Navegação</strong><a href="#inicio">Início</a
+              ><a href="#tratamentos">Tratamentos</a
+              ><a href="#diferenciais">Diferenciais</a
+              ><a href="#depoimentos">Depoimentos</a>
+            </div>
+            <div class="footer-col">
+              <strong>Contato</strong
+              ><a href="#agendamento" id="footer-whatsapp"
+                >WhatsApp: [81 90000-0000]</a
+              ><a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="instagram-link"
+                >Instagram: @clinica</a
+              ><span id="address-text">Rua Silvino Macedo, 193</span>
+            </div>
+            <div class="footer-col">
+              <strong>Atendimento</strong
+              ><span id="hours-text">De Seg. à Sab. das 09 às 18:00</span
+              ><span id="cro-text"
+                >Doutor responsável: João Lima<br /></span
+              >
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <span
+              >© <span id="year"></span>
+              <span data-clinic-name>Clínica Odontologica</span>. Todos os
+              direitos reservados.</span
+            ><a href="#inicio">Voltar ao início ↑</a>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

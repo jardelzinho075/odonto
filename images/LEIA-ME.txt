@@ -1,0 +1,8 @@
+Coloque nesta pasta suas fotografias reais:
+hero.jpg
+atendimento.jpg
+equipe.jpg
+tratamentos.jpg
+consultorio.jpg
+Depois atualize o objeto FOTOGRAFIAS no começo do script.js.
+Nenhuma imagem foi criada artificialmente ou incluída como arquivo inexistente.
